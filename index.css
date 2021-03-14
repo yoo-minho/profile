@@ -1,0 +1,42 @@
+html, body, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+div, span, p, ul, label {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    border: 4px solid #307cff;
+    background: lightgray;
+}
+
+.item {
+    width: 100%;
+    /*word-break: break-all;*/
+    flex: 1;
+    background: aqua;
+    border: 4px solid #307cff;
+    display: flex;
+}
+
+.item:nth-child(odd) {
+    background: blueviolet;
+    border: 4px solid #307cff;
+}
+
+.special {
+    width: 200px;
+}
